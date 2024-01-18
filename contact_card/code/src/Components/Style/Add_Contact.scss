@@ -1,0 +1,77 @@
+.add_contact_conatainer
+{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:center;
+	align_items:center;
+	padding:20px 10px 20px 10px;
+	.add_contact
+	{
+		width:40rem;
+		height:auto;
+		background-color:#fff;
+		box-shadow:0px 0px 5px 2px rgba(0,0,0,0.8);
+		padding:20px 0px 20px 0px;
+ 		.add_contact_input_container
+		{
+			width:90%;
+			height:auto;
+			margin:auto; 
+			overflow:hidden;
+			label
+			{
+				width:100%;
+				height:auto;
+				 
+				 display:block;
+				padding:10px 0px 5px 0px;
+				font-size:1rem;
+			}
+			.input1
+			{
+				display:block;
+				width:100%;
+				height:auto;
+			  
+				padding:5px 10px 5px 10px;
+				font-size:1rem;
+				border:1.5px solid rgba(0,0,0,0.5);
+				outline:none;
+			}
+			#address
+			{
+				resize:vertical;
+			}
+			&:has(.input1:focus)>label
+			{
+				color:rgba(100,100,200,1); 
+			}
+			.input1:focus
+			{
+				border:2px solid rgba(100,100,200,1);
+			}
+				
+			.add_contact_btn
+			{
+				display:block;
+				margin:auto;
+				border:none;
+				outline:none;
+				 margin-top:30px;margin-bottom:20px;
+				 background-color:rgba(255,100,1,1);
+				 color:#fff;
+				 padding:5px 20px 5px 20px;
+				 font-size:1rem;
+				 font-weight:700;
+				 &:hover
+				 {
+					outline:2px solid rgba(255,100,1,1);
+				 }
+			}
+		}
+		
+		
+	}
+	
+}
