@@ -1,0 +1,35 @@
+
+.PageButtonContainer
+{
+	width:100%;
+	height:auto;
+	padding-bottom:20px;padding-top:20px;
+	display:flex;
+	justify-content:center;
+	
+	#prebtn, #nextbtn
+	{
+		background-color:rgba(255,100,1,1);
+		border:none;outline:none;
+		width:auto;height:auto;
+		color:#fff;
+		font-size:1rem;
+		padding:2px 10px 5px 10px;
+		border-radius:4px;
+	}
+	#prebtn:hover, #nextbtn:hover
+	{
+		outline:2px solid rgba(255,100,1,1);
+		
+		 
+	}
+	.pageNumber
+	{
+		width:auto;
+		height:auto;
+		text-align:center;
+		font-size:16px;
+		font-weight:bold;
+		padding-left:10px;padding-right:10px;
+	}
+}
